@@ -1,0 +1,19 @@
+a {
+  color: red;
+  text-decoration: none; /* no underline */
+}
+
+#home{
+  position:absolute;
+  font-family:menlo;
+  font-size:25px;
+  left:32%;
+  top:15%;
+  bottom:40%;
+  z-index:1;
+}
+
+#home:hover{
+  opacity:0.6;
+  transition:0.5s;
+}
