@@ -7,17 +7,28 @@ audio {
 }
 
 #bg1 {
-  background-image: url("./img/Untitled.gif");
-  background-size: cover;
-  background-repeat:no-repeat;
-  height:700px;
+  width: 100%;
+  height: 768px;
+  margin: auto;
+}
+
+form { 
+  margin: 0 auto; 
+  width:250px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
 a:link {
   text-decoration: none;
 }
 
-bold{
+bold {
   color:black;
   opacity:0.95;
 }
@@ -39,7 +50,7 @@ bold{
 }
 
 .intro{
-  left:26.5%;
+  left:25%;
   width:50%;
   height:30%;
   top:35%;

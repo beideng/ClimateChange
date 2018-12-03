@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="cc.css">
-	<script src="cc.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <style>
-  </style>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="cc.css">
+		<script src="cc.js"></script>
 	</head>
+	<script type="text/javascript">
+		function popup() {
+			var name = document.getElementById("form-id").value;
+			var popup = document.getElementById("intro-popup");
+  			window.alert("Hello "+ name + ". It is the year 2100. Global temperatures have risen by 4C. Severe consequences of climate change are tearing the world apart. Take a look around.");
+  			window.location = "drought.html";
+		}
+	</script>
 	<body>
+		<img id="bg1" src="./img/Untitled.gif">
 
-				<div class="home">
-				<bold><a href="index.html" style="text-decoration:none; color:white;"><center>Welcome to the Year: <strong> 2100</strong></center></a></bold>
-				</div>
-				<div class="intro">
-					<center>Please Enter Your Name</center>
+		<div class="home">
+			<bold><a href="index.html" style="text-decoration:none; color:white;"><center>Welcome to the Year: <strong> 2100</strong></center></a></bold>
+		</div>
 
-				</div>
-	      <body id="bg1">
-	    </div>
+		<div class="intro">
+			<center>Please Enter Your Name:</center>
+			<form>
+				<input type="text" id="form-id" value="">
+				<button type="button" onclick="popup()">Submit</button>
+			</form>
 
-			<audio controls autoplay>
-			  <source src="./img/sound1.wav" type="audio/mpeg">
-			</audio>
+			<div id="intro-popup"></div>
 
+
+		</div>
+
+
+			
+		<audio controls autoplay>
+		  <source src="./img/sound1.wav" type="audio/mpeg">
+		</audio>
 
 	</body>
 </html>
