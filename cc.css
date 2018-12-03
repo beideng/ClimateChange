@@ -1,19 +1,151 @@
-a {
-  color: red;
-  text-decoration: none; /* no underline */
+body{
+  overflow: hidden;
 }
 
-#home{
+audio {
+   display:none;
+}
+
+#bg1 {
+  background-image: url("./img/Untitled.gif");
+  background-size: cover;
+  background-repeat:no-repeat;
+  height:700px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+bold{
+  color:black;
+  opacity:0.95;
+}
+
+.home{
   position:absolute;
   font-family:menlo;
+  text-align:center;
+  font-size:27px;
+  left:35.5%;
+  top:20%;
+  bottom:40%;
+  z-index:1;
+}
+
+.home:hover{
+  opacity:0.6;
+  transition:0.5s;
+}
+
+.intro{
+  left:26.5%;
+  width:50%;
+  height:30%;
+  top:35%;
+  font-size:18px;
+  position:absolute;
+  font-family:menlo;
+  color:white;
+  position:absolute;
+  z-index:1;
+}
+
+
+.home1{
+  position:absolute;
+  font-family:menlo;
+  text-align:center;
   font-size:25px;
-  left:32%;
+  left:37%;
   top:15%;
   bottom:40%;
   z-index:1;
 }
 
-#home:hover{
+.home1:hover{
   opacity:0.6;
   transition:0.5s;
+}
+
+.home2{
+  position:absolute;
+  font-family:menlo;
+  text-align:center;
+  font-size:25px;
+  left:45%;
+  top:15%;
+  bottom:40%;
+  z-index:1;
+}
+
+.home2:hover{
+  opacity:0.6;
+  transition:0.5s;
+}
+
+.introx{
+  left:16%;
+  width:50%;
+  height:10%;
+  top:35%;
+  font-size:18px;
+  position:absolute;
+  font-family:menlo;
+  color:white;
+  z-index:1;
+}
+
+.introx:hover{
+  transform:scale(1.2);
+  transition:0.6s;
+}
+
+#hoverbar{
+    width:45%;
+    border-style:dotted;
+    position:absolute;
+    top:40%;
+    left:27%;
+    visibility:hidden;
+    border-width: 1px;
+    font-size:14px;
+    color:yellow;
+}
+.introx:hover > #hoverbar{
+    visibility:visible;
+}
+
+
+.introy{
+  left:56%;
+  width:50%;
+  height:60%;
+  top:50%;
+  font-size:18px;
+  position:absolute;
+  font-family:menlo;
+  color:white;
+  position:absolute;
+  z-index:1;
+}
+.introy:hover{
+  transform:scale(1.2);
+  transition:0.6s;
+}
+.introz{
+  left:6%;
+  width:50%;
+  height:30%;
+  top:67%;
+  font-size:18px;
+  position:absolute;
+  font-family:menlo;
+  color:white;
+  position:absolute;
+  z-index:1;
+}
+.introz:hover{
+  transform:scale(1.2);
+  transition:0.6s;
 }
