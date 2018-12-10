@@ -5,6 +5,112 @@ body{
 audio {
    display:none;
 }
+#myVideo {
+  position: fixed;
+  font-family:menlo;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  font-family:menlo;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  left:0px;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-family:menlo;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  font-family:menlo;
+  background: #ddd;
+  color: black;
+}
+
+#taylor{
+  font-family:menlo !important;
+  margin-left:60%;
+  margin-top:10%;
+  color:blue;
+  width:15%;
+  background-color:white;
+  text-align:center;
+  border-radius: 1px;
+  border-style:dotted;
+  border-color:salmon;
+  cursor:pointer;
+  font-size:30px;
+  position:absolute;
+}
+#taylor:hover{
+  transform:scale(1.2);
+  color:salmon;
+}
+
+#taylor2{
+  font-family:menlo !important;
+  margin-left:20%;
+  margin-top:30%;
+  color:blue;
+  width:15%;
+  background-color:white;
+  text-align:center;
+  border-radius: 1px;
+  border-style:dotted;
+  border-color:salmon;
+  cursor:pointer;
+  font-size:30px;
+  position:absolute;
+}
+#taylor2:hover{
+  transform:scale(1.2);
+  color:salmon;
+}
+
+.exxon{
+  margin-left:55%;
+  margin-top:10%;
+  height:100%;
+  width:30%;
+  cursor:pointer;
+  postion:absolute;
+}
+.exxon:hover{
+  margin-top:5%;
+  transition:0.5s;
+  opacity:0.5;
+
+}
+
+.oil{
+  margin-left:40%;
+  margin-top:30%;
+  cursor:pointer;
+  position:absolute:;
+}
+
+.oil:hover{
+  margin-top: 5%;
+  transition: 0.5s;
+  opacity: 0.6;
+}
 
 #bg1 {
   width: 100%;
@@ -12,8 +118,14 @@ audio {
   margin: auto;
 }
 
-form { 
-  margin: 0 auto; 
+#bg3{
+  width:100%;
+  height:768px;
+  margin:auto;
+}
+
+form {
+  margin: 0 auto;
   width:250px;
 }
 
@@ -22,6 +134,15 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+}
+
+#bg2 {
+  background-image: url("https://img.buzzfeed.com/buzzfeed-static/static/2015-07/25/10/enhanced/webdr07/anigif_enhanced-30277-1437833349-2.gif");
+  width: 100%;
+  background-size:cover;
+  height: 768px;
+  margin:auto;
+  z-index:1;
 }
 
 a:link {
