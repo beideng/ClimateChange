@@ -14,30 +14,33 @@
 <video autoplay muted loop id="myVideo">
    <source src="./img/oil.mp4" type="video/mp4">
  </video>
- <div class="content">
-   <h1>Oil spills continue to pollute our oceans...</h1>
-   <p></p>
-   <!-- Use a button to pause/play the video with JavaScript -->
-   <button id="myBtn" onclick="myFunction()">Pause</button>
- </div>
+
 
 
 <script type="text/javascript">
-  function popup() {
-    window.alert("Oceans are unlivable environment due to the pollution of oil. The Taylor Oil spill has been leaking since 2004 and no cleanup effort has been made.")
+  function popup2() {
+    window.alert("As oil spills continue to occur from corrupt oil companies, our oceans are becoming an unlivable environment due to increasing pollution. The Taylor Oil spill has been leaking since 2004 and no cleanup effort has been made.")
   }
   </script>
 
 	<script type="text/javascript">
-	  function popup2() {
-	    window.alert("Oil spills increased levels of toxic arsenic in the ocean, creating long-term threat to the marine ecosystem ")
+	  function popup() {
+	    window.alert("Levels of toxic arsenic in the ocean are also on the rise, creating a long-term threat to the marine ecosystem and killing aquatic animals ")
 	  }
 	  </script>
 
-<div id="taylor" onclick="popup()">
-Taylor Oil Spill
-</div>
-<div id="taylor2" onclick="popup2()">Toxicity Levels Rising</div>
+		<script type="text/javascript">
+		  function popup3() {
+		    window.alert("Oil spills continue to pollute our oceans...and companies are doing nothing to prevent or mitigate it.")
+		  }
+		  </script>
+
+<div id="pulse-x" class="pulse-ring" onclick="popup()"></div>
+
+<div id="pulse-y" class="pulse-ring" onclick="popup2()"></div>
+
+
+<div id="pulse-z" class="pulse-ring" onclick="popup3()"></div>
 
 <audio loop controls autoplay>
 	<source src="./img/oil.wav" type="audio/mpeg">
