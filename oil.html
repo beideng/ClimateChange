@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="cc.css">
+	<script src="cc.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <style>
+  </style>
+	</head>
+
+<video autoplay muted loop id="myVideo">
+   <source src="./img/oil.mp4" type="video/mp4">
+ </video>
+ <div class="content">
+   <h1>Oil spills continue to pollute our oceans...</h1>
+   <p></p>
+   <!-- Use a button to pause/play the video with JavaScript -->
+   <button id="myBtn" onclick="myFunction()">Pause</button>
+ </div>
+
+
+<script type="text/javascript">
+  function popup() {
+    window.alert("Oceans are unlivable environment due to the pollution of oil. The Taylor Oil spill has been leaking since 2004 and no cleanup effort has been made.")
+  }
+  </script>
+
+	<script type="text/javascript">
+	  function popup2() {
+	    window.alert("Oil spills increased levels of toxic arsenic in the ocean, creating long-term threat to the marine ecosystem ")
+	  }
+	  </script>
+
+<div id="taylor" onclick="popup()">
+Taylor Oil Spill
+</div>
+<div id="taylor2" onclick="popup2()">Toxicity Levels Rising</div>
+
+<audio loop controls autoplay>
+	<source src="./img/oil.wav" type="audio/mpeg">
+</audio>
+
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+	<body>
+</html>
