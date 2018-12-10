@@ -5,7 +5,29 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="cc.css">
 		<script src="cc.js"></script>
+		<script type="text/javascript">
+			function reveal1() {
+				
+  				window.alert("Warming temperatures means less water stays in the form of snow. Early snowmelt leads to increased drought and trouble for agriculture, economy, and citizen well-being. In the 2000s, the US lost about $9 billion a year to drought, and economic consequences are only worse by 2100.");
+
+			}
+			function reveal2() {
+				window.alert("In June 2017, President Donald Trump withdrew the US from the Paris Agreement, in large part motivated by the ties the administration held with the fossil fuel industry. The departure of the US meant the goal of 2C would be much harder to meet, and the rest of the world would move towards a clean future while the US remained invested in fossil fuels. The US's uncurbed emissions would then hold the rest of the world from advancing, and land us all here, in a dry, hot, future.");
+			}
+			function reveal3() {
+				window.alert("Drought heavily impacts agriculture and food availability. Now in 2100, people over the world suffer from food shortages, famine, and lack of resources due to severe drought.");
+			}
+		</script>
 	</head>
 	<body>
+<!-- 		pulse code taken from https://stackoverflow.com/questions/34653532/pulsating-image-rings-css-animations-->			
+		<div onclick="reveal1()" id="pulse-1" class="pulse-ring"></div>
+		
+		<div onclick="reveal2()" id="pulse-2" class="pulse-ring"></div>
+		
+		<div onclick="reveal3()" id="pulse-3" class="pulse-ring"></div>
+
+		<a href="wildfire.html"><div class="next">NEXT</div></a>
+		<a href="index.html"><div class="back">BACK</div></a>
 	</body>
 </html>
