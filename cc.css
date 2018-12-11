@@ -122,19 +122,35 @@ audio {
 
 .next {
   position: absolute;
-  top: 93%;
-  left: 93%;
+  top: 90%;
+  left: 90%;
   background-color: white;
-  opacity: 0.7;
-  padding: 10px;
+  opacity: 0.5;
+  padding: 15px;
+  color:black;
+  font-family:menlo;
+}
+.next:hover{
+  color:salmon;
+  transition:0.4s;
+  opacity:0.3;
+  transform:scale(1.2);
 }
 .back {
   position: absolute;
-  top: 93%;
-  right: 93%;
+  top: 90%;
+  right: 90%;
   background-color: white;
-  opacity: 0.7;
-  padding: 10px;
+  opacity: 0.5;
+  padding: 15px;
+  color:black;
+  font-family:menlo;
+}
+.back:hover{
+  color:salmon;
+  transition:0.4s;
+  opacity:0.3;
+  transform:scale(1.2);
 }
 
 #bg1 {
@@ -351,7 +367,7 @@ bold {
 }
 
 #pulse-3 {
-  top: 600px;
+  top: 500px;
   left: 900px;
   cursor: pointer;
 }
@@ -408,7 +424,7 @@ bold {
 }
 
 .liquid {
-  fill: #CF1643; 
+  fill: #CF1643;
   cursor: pointer;
 }
 .liquid:hover{
@@ -451,4 +467,3 @@ bold {
   width: 80%;
   height: 80%;
 }
-
