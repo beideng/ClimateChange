@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="cc.css">
 		<script src="cc.js"></script>
-
 	</head>
 	<script type="text/javascript">
 		function popup() {
@@ -16,9 +15,23 @@
 		}
 	</script>
 	<body>
+
+		<iframe src="./img/sound1.wav" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe>
+<script>
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    if(!isChrome){
+      $('#iframeAudio').remove()
+    }
+  else{
+     $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background
+  }
+	</script>
+
 		<audio autoplay="autoplay" controls="controls">
 				<source src="./img/sound1.wav">
 		</audio>
+
 
 		<img id="bg1" src="./img/Untitled.gif">
 
