@@ -8,8 +8,7 @@
 	</head>
 
 	<script type="text/javascript">
-		function no()
-		{
+		function no() {
 			window.alert("NO");
 		}
 		function yes1()
@@ -27,18 +26,22 @@
 			window.alert("YES");
 			window.open("https://www.youtube.com/watch?v=10DQeSk1LaY");
 		}
+		function vote() {
+			window.alert("YES");
+			window.alert("VOTE");
+			window.open("https://voteclimatepac.org/climate-heroes/");
+		}
 	</script>
 	<body>
 		<img id="bg1" src="./img/Untitled.gif">
 
 		<div class="help">
 			<bold><h2 style="text-decoration:none; color:white;"><center>Can I help? I am: </strong></center></h2></bold>
-			<div style="cursor:pointer" onclick="no()">a concerned citizen</div>
-			<div style="cursor:pointer" onclick="no()">an unconcerned citizen</div>
-			<div style="cursor:pointer" onclick="no()">a big man</div>
-			<div style="cursor:pointer" onclick="no()">a rich techie</div>
+			<div style="cursor:pointer" onclick="vote()">a concerned citizen</div>
+			<div style="cursor:pointer" onclick="vote()">an unconcerned citizen</div>
+			<div style="cursor:pointer" onclick="vote()">a big man</div>
 			<div style="cursor:pointer" onclick="no()">a climate change denier</div>
-			<div style="cursor:pointer" onclick="no()">a vegan</div>
+			<div style="cursor:pointer" onclick="vote()">a vegan</div>
 			<div style="cursor:pointer" onclick="yes1()">a politician</div>
 			<div style="cursor:pointer" onclick="yes2()">a fossil fuel company</div>
 			<div style="cursor:pointer" onclick="yes3()">a meteor that will strike Earth and instantly kill us all</div>
